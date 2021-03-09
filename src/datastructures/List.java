@@ -5,6 +5,8 @@ public interface List <T> {
 	boolean isEmpty();
 	
 	boolean contains(T item);
+	
+	void add(T item);
 
 		//returns the actiual insertion index
 	int insertAt(T item, int index);

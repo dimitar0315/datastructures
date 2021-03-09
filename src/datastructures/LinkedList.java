@@ -21,6 +21,11 @@ public class LinkedList<T> implements List<T> {
 		
 		return false;
 	}
+	
+	
+	public void add(T item) {
+		head = new Node<T>(item, head);
+	}
 
 	@Override
 	public int insertAt(T item, int index) {
